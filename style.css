@@ -1,27 +1,27 @@
 /* Style général pour le corps et le texte */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 0; /* Supprime la marge par défaut du corps */
-    background-color: #f2f2f2; /* Ajoute un fond gris clair */
+    background-color: #2b3675; /* Ajoute un fond bleu */
 }
 
 /* Style pour l'en-tête */
 header {
-    background-color: #333; /* Couleur de fond de l'en-tête */
-    color: white; /* Couleur du texte de l'en-tête */
+    background-color: #899119; /* Couleur de fond de l'en-tête */
+    color: rgb(20, 10, 10); /* Couleur du texte de l'en-tête */
     padding: 20px; /* Espace intérieur autour du texte */
 }
 
 /* Style pour le titre principal */
 h1 {
-    font-size: 36px; /* Taille du texte */
+    font-size: 40px; /* Taille du texte */
 }
 
 /* Style pour la barre de navigation */
 nav {
-    background-color: #333;
-    padding: 10px;
+    background-color: #333333;
+    padding: 15px;
 }
 
 /* Style pour les liens de navigation */
@@ -43,12 +43,12 @@ section {
 
 /* Style pour les titres de section */
 h2 {
-    color: #333;
+    color: #e21111;
 }
 
 /* Style pour le contenu des sections */
 p {
-    color: #666;
+    color: #0a0909;
 }
 
 /* Style pour les listes non ordonnées */
@@ -59,7 +59,7 @@ ul {
 
 /* Style pour les éléments de liste */
 li {
-    margin: 10px 0;
+    margin: 15px 0;
     display: flex;
     justify-content: space-between;
 }
