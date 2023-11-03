@@ -1,26 +1,31 @@
-h1 {
-    color: blue;
- }body {
+body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
     padding: 0;
 }
 
-header {
+li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+button {
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    padding: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
